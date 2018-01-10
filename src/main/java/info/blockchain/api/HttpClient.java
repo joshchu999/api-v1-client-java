@@ -13,7 +13,7 @@ import java.util.Map.Entry;
  * implementation via setCustomHttpClient(...), such that it will get used globally.
  */
 public class HttpClient implements HttpClientInterface {
-    private static final String BASE_URL = "https://blockchain.info/";
+    private static final String BASE_URL = "https://testnet.blockchain.info/";
 
     public volatile static int TIMEOUT_MS = 10000;
 

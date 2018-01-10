@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class OkClient implements HttpClientInterface {
 
     public static final String URL_SCHEME = "https";
-    public static final String URL_HOST = "blockchain.info";
+    public static final String URL_HOST = "testnet.blockchain.info";
     public static final int TIMEOUT_MS = 10000;
 
     private static OkHttpClient okHttpClientInstance = null;
